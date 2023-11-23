@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiClocks", "MauiClocks\MauiClocks.csproj", "{539C2902-9801-4FBB-BE56-0913CED67A60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiControls", "MauiControls\MauiControls.csproj", "{A8C3D9C9-6F2E-44FD-8F97-0AC9A752A04E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{539C2902-9801-4FBB-BE56-0913CED67A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539C2902-9801-4FBB-BE56-0913CED67A60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{539C2902-9801-4FBB-BE56-0913CED67A60}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A8C3D9C9-6F2E-44FD-8F97-0AC9A752A04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C3D9C9-6F2E-44FD-8F97-0AC9A752A04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C3D9C9-6F2E-44FD-8F97-0AC9A752A04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C3D9C9-6F2E-44FD-8F97-0AC9A752A04E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

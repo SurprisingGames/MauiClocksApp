@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:drawable="clr-namespace:MauiControls.WaitWatch.Drawable"
+             x:Class="MauiControls.WaitWatch.WaitWatchView">
+    <ContentView.Resources>
+        <drawable:ClockDrawable x:Key="Drawable" />
+    </ContentView.Resources>
+    <GraphicsView Drawable="{StaticResource Drawable}" x:Name="StopWatchView" />
+</ContentView>
