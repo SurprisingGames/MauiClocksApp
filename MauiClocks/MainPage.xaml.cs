@@ -5,7 +5,7 @@ namespace MauiClocks
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent(); 
             BindingContext = new StopWatchViewModel();
         }
     }
